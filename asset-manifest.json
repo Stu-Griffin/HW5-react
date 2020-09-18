@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HW5-react/static/css/main.a719a105.chunk.css",
+    "main.js": "/HW5-react/static/js/main.184af2cb.chunk.js",
+    "main.js.map": "/HW5-react/static/js/main.184af2cb.chunk.js.map",
+    "runtime-main.js": "/HW5-react/static/js/runtime-main.fb6fb764.js",
+    "runtime-main.js.map": "/HW5-react/static/js/runtime-main.fb6fb764.js.map",
+    "static/js/2.a7cc7e70.chunk.js": "/HW5-react/static/js/2.a7cc7e70.chunk.js",
+    "static/js/2.a7cc7e70.chunk.js.map": "/HW5-react/static/js/2.a7cc7e70.chunk.js.map",
+    "index.html": "/HW5-react/index.html",
+    "precache-manifest.5b07b699d6f0c5c165dbca3fceae37df.js": "/HW5-react/precache-manifest.5b07b699d6f0c5c165dbca3fceae37df.js",
+    "service-worker.js": "/HW5-react/service-worker.js",
+    "static/css/main.a719a105.chunk.css.map": "/HW5-react/static/css/main.a719a105.chunk.css.map",
+    "static/js/2.a7cc7e70.chunk.js.LICENSE.txt": "/HW5-react/static/js/2.a7cc7e70.chunk.js.LICENSE.txt",
+    "static/media/padlock.svg": "/HW5-react/static/media/padlock.d964e0b3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb6fb764.js",
+    "static/js/2.a7cc7e70.chunk.js",
+    "static/css/main.a719a105.chunk.css",
+    "static/js/main.184af2cb.chunk.js"
+  ]
+}
