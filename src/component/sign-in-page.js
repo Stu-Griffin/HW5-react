@@ -21,17 +21,17 @@ class SignInPage extends Component {
             Password: event.target.value
         })
     }
+    CheckButton = () => {
+        this.setState({
+            CheckButton: !this.state.CheckButton
+        })
+    }
     CheckInf = () => {
         if(((this.state.EmailAddress) === (localStorage.getItem("EmailAddress"))) && ((this.state.Password) === (localStorage.getItem("Password")))) {
             alert('ok, come in')
         } else {
             alert("who are you?")
         }
-    }
-    CheckButton = () => {
-        this.setState({
-            CheckButton: !this.state.CheckButton
-        })
     }
     render() {
         return(
@@ -45,7 +45,7 @@ class SignInPage extends Component {
                     </Box>
                     <Box>
                         <Input placeholder="Email Address*" value={this.state.EmailAddress} onChange={this.SaveEmailAddress}/>
-                        <Input placeholder="Password*" value={this.state.Password} onChange={this.SavePassword}/>
+                        <Input placeholder="Password*"type="password" value={this.state.Password} onChange={this.SavePassword}/>
                         <BoxContent>
                             <div className="checkbox">
                                 <Checkbox onClick={this.CheckButton} className="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo"/>
@@ -55,7 +55,8 @@ class SignInPage extends Component {
                         </BoxContent>
                     </Box>
                     <Box>
-                        <Button onClick={this.CheckInf}>Sign In</Button>
+                        {/* <Button onClick={this.CheckInf}>Sign In</Button> */}
+                        <Link to="/home-page"><Button  onClick={this.CheckInf}>Sign In</Button></Link>
                         <BoxContent style={{justifyContent: `space-between`}}>
                             <Text>Forgot Password?</Text>
                             <Link to="/sign-up">Don't have an account?</Link>
